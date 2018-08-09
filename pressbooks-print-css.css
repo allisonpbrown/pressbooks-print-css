@@ -155,19 +155,19 @@ src: url(https://www.princexml.com/fonts/liberation/LiberationSans-Bold.ttf) for
   font-family: 'Cardo';
   font-weight: bold;
   font-style: normal;
-  src: url('themes-book/pressbooks-book/fonts/Cardob101.ttf') format("truetype"); }
+  src: url('https://milnepublishing.geneseo.edu/usr/share/fonts/Cardob101.ttf') format("truetype"); }
 
 @font-face {
   font-family: 'Cardo';
   font-weight: normal;
   font-style: italic;
-  src: url('themes-book/pressbooks-book/fonts/Cardoi99.ttf') format("truetype"); }
+  src: url('https://milnepublishing.geneseo.edu/usr/share/fonts/Cardoi99.ttf') format("truetype"); }
 
 @font-face {
   font-family: 'Cardo';
   font-weight: normal;
   font-style: normal;
-  src: url('themes-book/pressbooks-book/fonts/Cardo104s.ttf') format("truetype"); }
+  src: url('https://milnepublishing.geneseo.edu/usr/share/fonts/Cardo104s.ttf') format("truetype"); }
 
 table, {
   page-break-inside: auto; }
