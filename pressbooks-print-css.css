@@ -1,0 +1,625 @@
+.wp-caption.alignleft + p, .wp-nocaption.alignleft + p, .wp-caption.alignright + p, .wp-nocaption.alignright + p, .float-top + p, .float-bottom + p, .pullquote + p, .pullquote-right + p, .pullquote-left + p, .pullquote-outside + p, .sidebar + p {
+  text-indent: 0em; }
+
+
+dd {
+  page-break-inside: avoid;
+}
+
+dt {page-break-after: avoid;}
+
+#toc li.front-matter{
+  display: none; }
+
+#title-page > .author {
+  display: none; }
+
+.chapter-title-wrap h2.chapter-title {
+    font-size: 1.75em;
+}
+
+#half-title-page {
+display: none;}
+
+#toc li.part {
+    margin-left: -3em;
+    margin-top: 0.25em;
+}
+
+#toc {
+  page-break-before: always; }
+
+  #toc .front-matter + .chapter, #toc .part + .chapter, #toc .part + .back-matter, #toc .chapter + .back-matter {
+    margin-top: 0.5em; }
+  #toc .part {
+    margin-top: 0.5em;
+    page-break-after: avoid; }
+
+#toc h1 {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  text-align: center;
+ }
+
+div.techbox {
+    background-color: #eee;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1.35em;
+    border-radius: 0.35em;
+    border-style: solid;
+    border-width: 0.05em;
+    color: #000;}
+
+
+
+div.techbox h3 {
+    padding: 1.1111111111em 1.1111111111em 1.1111111111em 1.1111111111em;
+    margin: -1.1111111111em -1.1111111111em 1.1111111111em -1.1111111111em;
+    border-top-right-radius: 0.3388888889em;
+    border-top-left-radius: 0.3388888889em;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #888B8D;
+}
+
+div.techbox ul,
+div.techbox ol, div.textbox ul, div.textbox ol {
+    line-height: 1.25;
+    margin: 0.5em 1em !important;
+}
+
+
+h1 {
+    text-transform: none;
+}
+
+ ol.outline {
+ list-style-type: upper-roman; 
+   margin-left: 0em;
+      margin-bottom: 0em;
+   margin-top: 0em;
+}
+
+ ol.outline ol {
+ list-style-type: upper-alpha; 
+   margin-left: em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+
+}
+ ol.outline ol ol {
+ list-style-type: decimal; 
+   margin-left: em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+
+}
+
+ ol.outline li {
+ list-style-type: upper-roman; 
+   margin-left: em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+
+}
+
+ ol.outline ol li {
+ list-style-type: upper-alpha; 
+   margin-left: em;
+      margin-bottom: 0em;
+      margin-top: 0em;
+
+}
+ol.outline ol ol li {
+ list-style-type: decimal; 
+   margin-left: em;
+      margin-bottom: 0em;
+     margin-top: 0em;
+
+}
+
+ @font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBvZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+@font-face {
+font-family: "LiberationSans";
+font-style: normal;
+src: url(https://www.princexml.com/fonts/liberation/LiberationSans-Italic.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "LiberationSans";
+font-weight: 600;
+font-style: normal;
+src: url(https://www.princexml.com/fonts/liberation/LiberationSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: bold;
+  font-style: normal;
+  src: url('themes-book/pressbooks-book/fonts/Cardob101.ttf') format("truetype"); }
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: normal;
+  font-style: italic;
+  src: url('themes-book/pressbooks-book/fonts/Cardoi99.ttf') format("truetype"); }
+
+@font-face {
+  font-family: 'Cardo';
+  font-weight: normal;
+  font-style: normal;
+  src: url('themes-book/pressbooks-book/fonts/Cardo104s.ttf') format("truetype"); }
+
+table, {
+  page-break-inside: auto; }
+
+iframe {display: none;}
+
+
+ul li {
+  text-indent: 0em!important; 
+}
+
+
+ol ul {
+  text-indent: 0em!important; 
+}
+
+ol {
+  text-indent: 0em!important; 
+}
+
+
+.chapter-title-wrap {
+        margin: 0 0 0 0!important; 
+}
+
+.back-matter-title-wrap {
+  margin: 0cm 0 0cm 0!important; 
+}
+
+.front-matter-title-wrap {
+  margin: 0 0 0 0!important; 
+}
+
+
+.part-title-wrap {
+font-size: 1em;
+ text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  	page-break-after: avoid;
+}
+
+h1 {
+  margin-top: 1em;
+      margin-bottom: 0.75em;
+}
+
+h2 {
+  margin-top: 0.75em;
+      margin-bottom: 0.75em;
+}
+
+h3, h4, h5 {
+  margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+
+ .examples h3, .exercises h3, .bcc-info h3,  .key-takeaways h3, .bcc-success h3, .learning-objectives h3, .bcc-highlight h3,  {
+ 	margin: -2% -3% 15px;  
+}
+
+#half-title-page > h1.title, h1.title,  h2.subtitle, h3.author, h4.publisher, h5.publisher-city, h2.chapter-subtitle, 
+
+.chapter_subtitle, .entry-title, .entry-title span,  .chapter-title-wrap, h2.chapter-author, h2.chapter_author, #toc h1, .part-title-wrap, .part-title,  #toc .part,   #toc .part a::before, .first-character, .firstcharacter, .pullquote, .pullquote-left, .pullquote-right,  .back-matter-title,   .chapter-title-wrap .chapter-title,   .front-matter-title-wrap .front-matter-title,   {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+}
+
+ .part-title-wrap .part-title, .part-title-wrap .part-number, .chapter-title-wrap h2.chapter-title,  .front-matter-title-wrap h1.front-matter-title,  .back-matter-title-wrap h1.back-matter-title {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif!important;
+}
+
+
+
+@page front-matter:first {
+  @bottom-center {
+   	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+ @page introduction:first {
+  @bottom-center {
+   	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+    @page part:first {
+  @bottom-center {
+   	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+   @page chapter:first {
+  @bottom-center {
+   	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+   @page back-matter:first {
+  @bottom-center {
+   	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+
+ @page front-matter:left,   {
+  @top-left {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+    } }
+
+@page introduction:left {
+  @top-left {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+    } }
+  
+   @page part:left {
+  @top-left {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+    } }
+  
+   @page chapter:left {
+  @top-left {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+    } }
+  
+  
+   @page back-matter:left {
+  @top-left {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+    } }
+
+  @page front-matter:right {
+  @top-right {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+@page introduction:right {
+  @top-right {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+  @page part:right {
+  @top-right {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+  
+  @page chapter:right {
+  @top-right {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+   @page back-matter:right  {
+  @top-right {
+  	font-family:"Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  } }
+
+
+@page chapter:right {
+  @top-right {
+    content: "" string(section-title) "" '\A0\A0\2022\A0\A0' counter(page); } }
+
+
+
+.blockquote, blockquote, body, table, .textbox, .bcc-box, .wp-caption-text, .figurecaption,   #copyright-page .ugc p,   div.epigraph p, blockquote .aphorism, .aphorism,    #toc .chapter-subtitle,  #toc .chapter-author,   #toc .back-matter .toc-chapter-title,  #toc a::after,   #toc .front-matter .toc-chapter-title,  #toc .front-matter a::after,   #toc .chapter a::before,   #toc .toc-chapter-title,   #toc .chapter-subtitle,   #toc .chapter-author,  #toc .back-matter .toc-chapter-title {
+    font-family: "Cardo", "Times New Roman", serif;
+}
+
+.textbox h6 {
+ margin-top: 0.5em; 
+}
+
+.tall {
+	height: 600px!important; 
+	width: auto!important;
+}
+
+a {
+  color: #2448BD; }
+
+/** increase size of CC license image **/	
+div.license-attribution img {
+         width: 88px; 
+}
+
+.bcc-box h3, .textbox h3,   .textbox.examples h3,  .textbox.exercises h3, .textbox.key-takeaways h3,  .textbox.learning-objectives h3  {
+  text-transform: uppercase!important;
+}
+
+
+.interactive-content { display: none; }
+
+
+
+					/** list numbering & formatting updates: no sub numbering (1.1, etc.) **/
+
+ol {
+ 		 text-indent: -1em;
+       list-style-type: decimal;
+}
+
+li {
+    	display: list-item!important;
+}
+
+li + li {
+  margin-top: 0.2em; }
+
+ul {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  margin-left: 1em;
+  padding-left: 1em;
+  line-height: 1.25em}
+
+ol li::before {
+  content: none;
+}
+
+ol li li::before {
+  content: none;
+}
+
+ol li li li::before {
+  content: none;
+}
+
+ol li {
+   		 text-indent: 0;
+}
+
+ol li li{
+     list-style-type: disc;
+  	display: list-item!important;
+   		 text-indent: 0;
+}
+
+ol li li li {
+     list-style-type: disc;
+   		 text-indent: 0;
+  	display: list-item!important;
+}
+
+							  	/** formatting for attributions  **/
+div.licensing::before {
+ content: "Attributions"; 
+    	margin-top: 100px;
+      font-size: 1.25em;
+    font-family: "Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+  page-break-after: avoid;
+}
+div.licensing {
+  font-size: .75em; 
+  line-height: .95em;
+}
+.license-attribution-dropdown-subheading {
+  	margin-top: 10px;
+	margin-bottom: 10px;
+    font-size: 1em;
+  	line-height: 1em;
+    font-family: "Open Sans","LiberationSans", Candara,"Trebuchet MS", Verdana, sans-serif;
+}
+
+.endnotes {
+  margin-left: 1.5em;
+  line-height: 1.1em; }
+  .endnotes h3 {
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: -1.5em; }
+  .endnotes hr {
+    margin-top: 0em;
+    border: 0; }
+  .endnotes ol {
+    margin-top: 0em;
+    margin-left: 0;
+    font-size: 0.85em;
+    list-style-position: outside; }
+  .endnotes li {
+    padding-left: 0;
+    margin-top: 0.25em;
+    text-indent: 0; }
+
+
+									/** table formatting fixes  **/
+table  {
+        display: table;
+        max-width: 110%;
+        margin-left: auto; 
+        margin-right: auto;
+        page-break-inside:auto!important;
+        table-layout: fixed;
+}
+
+tr {
+        page-break-after:auto;
+}
+
+th, td {
+        page-break-inside:auto!important;
+        border: 0.5px solid;
+        padding: 3px;
+        margin: 0px;
+        text-indent: 0px;
+}
+
+table ul {
+  margin-left: 20px;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+table {
+  font-size: 12px;
+}
+ 
+table p {
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 3px;
+    vertical-align: top;
+}
+
+table p.no-indent {
+    margin-bottom: 3px;
+}
+
+                                                            /** Images **/
+
+
+div.alignright img.alignright, div.alignleft img.alignleft, div.wp-nocaption img.alignleft, div.wp-nocaption img.alignright {
+  width: 100%!important;
+  max-width: 200%;
+}
+
+p img.alignright, li img.alignright, h1 img.alignright, h2 img.alignright, h3 img.alignright, h4 img.alignright {
+    float: right;
+    width: 33%!important;
+	margin: .5em 0 .5em 0.5em;
+}
+
+p img.alignleft, li img.alignleft, h1 img.alignleft, h2 img.alignleft, h3 img.alignleft, h4 img.alignleft {
+  	float:left;
+    width: 33%!important;
+	margin:.5em 1em .5em 0.5em;
+}
+
+div.alignright {
+    float: right;
+    width: 33%!important;
+	margin: .5em 0 0em 0.75em;
+}
+div.alignleft {
+  	float:left;
+    width: 33%!important;
+	margin:.5em 0.75em .5em 0.5em;
+}
+
+.wp-caption {
+    page-break-inside: avoid;
+}
+
+.top-float {
+   float: unless-fit top;
+    page-break-inside: avoid;
+}
+
+
+.wp-caption.aligncenter, .wp-nocaption.aligncenter {
+  width: 75%!important;
+  float: unless-fit top;
+}
+
+img.wp-image-442 {
+    height: auto!important;
+      max-width: 100px!important;
+}
+                               /** Fix for a tall image that goes off the page. Update class to the image you are trying to resize (locate via xhtml export & inspect in browser)
+
+img.wp-image-426 {
+	height: 800px!important; 
+	width: auto!important;
+}
+
+Or for IDs
+
+#attachment_1659 {
+	height: 800px!important; 
+	width: auto!important;
+}
+
+/**To Fix numbering of Front matter: Set first Front matter to Introduction in Pressbooks  (Front Matter type), and any subsequent chapters as Abstract. This will start the page numbering at the first and number everything in Decimal rather than lower roman **/
+
+div.abstracts {
+  page: abstracts;
+  prince-page-group: start; }
+
+@page abstracts:left {
+  @top-left {
+    font-family: "Cardo", "Times New Roman", serif;
+    content: counter(page) "\A0\A0\A0" string(book-title);
+    vertical-align: left; } }
+
+@page abstracts:right {
+  @top-right {
+    font-family: "Cardo", "Times New Roman", serif;
+    content: string(section-title, last) "\A0\A0\A0" counter(page);
+    vertical-align: right; } }
+
+@page abstracts:first {
+  @top-left {
+    content: ""; }
+
+  @top-right {
+    content: ""; }
+
+  @bottom {
+    content: counter(page);
+    font-family: "Cardo", "Times New Roman", serif;
+    vertical-align: center; } }
+
+@page abstracts:blank {
+  @top-left {
+    content: ""; } }
+
+
+#toc .front-matter a::after {
+    content: leader(' ') target-counter(attr(href), page, lower-roman); }
+
+
+span.footnote {
+ font-family: "Cardo", "Times New Roman", serif;
+  font-weight: normal;
+    font-size: 0.8em;
+  line-height: 1.15em;
+}
+
+
+.footnote {
+  footnote-style-position: inside; }
+
+div.chapter {
+  page-break-before: auto; }
+
+div.part {
+  page-break-after: auto; }
+
+ dl dd {
+    font-style: normal;
+}
+
+
+.front-matter .break {  page-break-before: always;
+   margin-top: 0.5em;}
+
+.chapter .break {  page-break-before: always;
+   margin-top: 2.5em;}
+
+div.chapter-ugc {margin-top: -1cm;}
